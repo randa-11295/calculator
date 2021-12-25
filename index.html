@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description"  contant="calculet plus total">
+        <meta name="kaywords"     content="calculetor with js">
+
+        <link rel="stylesheet"   href="style/style.css">
+
+        <title> Calculator </title>
+
+    </head>
+    <body>
+
+        <section class="container" >
+            <aside>
+            <div class="show">
+               
+            </div>
+            <div  class="content" >
+                <input type="button"  value="c"              onclick="myClear()"  class="top" >
+                <input type="button"  value="&larr;"         onclick="remove()"   class="top " >
+                <input type="button"  name="*100" value="%"  onclick="sum(this) " class="top"  >
+                <input type="button"  name="/"    value="÷"  onclick="sum(this)"  class="top" >
+                <input type="button"  name="1"    value="1"  onclick="sum(this)">
+                <input type="button"  name="2"    value="2"  onclick="sum(this)">
+                <input type="button"  name="3"    value="3"  onclick="sum(this)">
+                <input type="button"  name="*"    value="X"  onclick="sum(this)"  class="top"  >
+                <input type="button"  name="4"    value="4"  onclick="sum(this)">
+                <input type="button"  name="5"    value="5"  onclick="sum(this)">
+                <input type="button"  name="6"    value="6"  onclick="sum(this)">
+                <input type="button"  name="-"    value="-"  onclick="sum(this)" class="top" >
+                <input type="button"  name="7"    value="7"  onclick="sum(this)">
+                <input type="button"  name="8"    value="8"  onclick="sum(this)">
+                <input type="button"  name="9"    value="9"  onclick="sum(this)">
+                <input type="button"  name="+"    value="+"  onclick="sum(this)" class="top"  >
+                <input type="button"  name="0"    value="0"  onclick="sum(this)">
+                <input type="button"  name="."    value="."  onclick="sum(this)">
+                <input type="button"  id="double" value="="  onclick="total(this)" class="top" >
+
+            </div>
+            </aside>
+        </section>
+     
+        <script src="js/control.js"></script>
+    </body>
+</html>
